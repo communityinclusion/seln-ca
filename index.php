@@ -25,12 +25,12 @@
 
 	<div id="header-container">
 		<header class="wrapper clearfix">
-			<h1 id="title">h1#title</h1>
+			<h1 id="title">SELN-CA DEMO</h1>
 			<nav>
 				<ul>
-					<li><a href="#">nav ul li a</a></li>
-					<li><a href="#">nav ul li a</a></li>
-					<li><a href="#">nav ul li a</a></li>
+					<li><a href="#">link</a></li>
+					<li><a href="#">link</a></li>
+					<li><a href="#">link</a></li>
 				</ul>
 			</nav>
 		</header>
@@ -44,23 +44,20 @@
 					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sodales urna non odio egestas tempor. Nunc vel vehicula ante. Etiam bibendum iaculis libero, eget molestie nisl pharetra in. In semper consequat est, eu porta velit mollis nec.</p>
 				</header>
 				<!-- Accordion -->
-						<a class="various fancybox.iframe" href="http://maps.google.com/?output=embed&f=q&source=s_q&hl=en&geocode=&q=London+Eye,+County+Hall,+Westminster+Bridge+Road,+London,+United+Kingdom&hl=lv&ll=51.504155,-0.117749&spn=0.00571,0.016512&sll=56.879635,24.603189&sspn=10.280244,33.815918&vpsrc=6&hq=London+Eye&radius=15000&t=h&z=17">Google maps (iframe)</a>
+						<a class="various fancybox.iframe" href="http://maps.google.com/maps/ms?msid=202643747748325286558.0004bc5203ca3bdbb624d&msa=0&ll=33.504759,-120.541992&spn=26.10634,52.77832">Google maps (iframe)</a>
 
 		<h2 class="demoHeaders">Accordion</h2>
 		<div id="accordion">
 			<div>
-				<h3 id="one"><a href="#">First</a></h3>
+				<h3 id="one"><a href="#">Seln Event #1</a></h3>
 				<div><div style="width:100%; text-align:left;" ><iframe  src="https://www.eventbrite.com/tickets-external?eid=3240419181&ref=etckt" frameborder="0" height="192" width="100%" vspace="0" hspace="0" marginheight="5" marginwidth="5" scrolling="auto" allowtransparency="true"></iframe><div style="font-family:Helvetica, Arial; font-size:10px; padding:5px 0 5px; margin:2px; width:100%; text-align:left;" ><a style="color:#ddd; text-decoration:none;" target="_blank" href="http://www.eventbrite.com/r/etckt" >Online event registration</a><span style="color:#ddd;" > for </span><a style="color:#ddd; text-decoration:none;" target="_blank" href="http://www.eventbrite.com/event/3240419181?ref=etckt" >Seln Event #1</a><span style="color:#ddd;" > powered by </span><a style="color:#ddd; text-decoration:none;" target="_blank" href="http://www.eventbrite.com?ref=etckt" >Eventbrite</a>
 				</div></div>
 			</div>
 			<div>
-				<h3 id="two"><a href="#">Second</a></h3>
-				<div>Phasellus mattis tincidunt nibh.</div>
+				<h3 id="two"><a href="#">Seln Event #2</a></h3>
+				<div><div style="width:100%; text-align:left;" ><iframe  src="https://www.eventbrite.com/tickets-external?eid=3240455289&ref=etckt" frameborder="0" height="192" width="100%" vspace="0" hspace="0" marginheight="5" marginwidth="5" scrolling="auto" allowtransparency="true"></iframe><div style="font-family:Helvetica, Arial; font-size:10px; padding:5px 0 5px; margin:2px; width:100%; text-align:left;" ><a style="color:#ddd; text-decoration:none;" target="_blank" href="http://www.eventbrite.com/r/etckt" >Online Ticketing</a><span style="color:#ddd;" > for </span><a style="color:#ddd; text-decoration:none;" target="_blank" href="http://www.eventbrite.com/event/3240455289?ref=etckt" >Seln event #2</a><span style="color:#ddd;" > powered by </span><a style="color:#ddd; text-decoration:none;" target="_blank" href="http://www.eventbrite.com?ref=etckt" >Eventbrite</a></div></div></div>
 			</div>
-			<div>
-				<h3 id="three"><a href="#">Third</a></h3>
-				<div>Nam dui erat, auctor a, dignissim quis.</div>
-			</div>
+			
 		</div>
 				<section>
 					<h2>article section h2</h2>
@@ -70,15 +67,12 @@
 					<h2>article section h2</h2>
 					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sodales urna non odio egestas tempor. Nunc vel vehicula ante. Etiam bibendum iaculis libero, eget molestie nisl pharetra in. In semper consequat est, eu porta velit mollis nec. Curabitur posuere enim eget turpis feugiat tempor. Etiam ullamcorper lorem dapibus velit suscipit ultrices. Proin in est sed erat facilisis pharetra.</p>
 				</section>
-				<footer>
-					<h3>article footer h3</h3>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sodales urna non odio egestas tempor. Nunc vel vehicula ante. Etiam bibendum iaculis libero, eget molestie nisl pharetra in. In semper consequat est, eu porta velit mollis nec. Curabitur posuere enim eget turpis feugiat tempor.</p>
-				</footer>
+				
 			</article>
 			
 			<aside>
 				<h3>aside</h3>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sodales urna non odio egestas tempor. Nunc vel vehicula ante. Etiam bibendum iaculis libero, eget molestie nisl pharetra in. In semper consequat est, eu porta velit mollis nec. Curabitur posuere enim eget turpis feugiat tempor. Etiam ullamcorper lorem dapibus velit suscipit ultrices.</p>
+				<p>This will have the intro. It goes to the top in the mobile view</p>
 			</aside>
 			
 		</div> <!-- #main -->
@@ -86,7 +80,7 @@
 
 	<div id="footer-container">
 		<footer class="wrapper">
-			<h3>footer</h3>
+			<h4>footer</h4>
 		</footer>
 	</div>
 
