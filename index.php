@@ -13,26 +13,42 @@
 
 	<meta name="viewport" content="width=device-width">
 
-	<link rel="stylesheet" href="css/style.css">
+	
 	<link type="text/css" href="css/smoothness/jquery-ui-1.8.18.custom.css" rel="stylesheet" />	
 	<link rel="stylesheet" href="fancybox/jquery.fancybox.css" type="text/css" media="screen" />
-
+    <link rel="stylesheet" href="css/style.css">
 
 	<script src="js/libs/modernizr-2.5.3-respond-1.1.0.min.js"></script>
+	<style type="text/css">
+			/*demo page css*/
+			.demoHeaders { margin-top: 2em; }
+			#dialog_link {padding: .4em 1em .4em 20px;text-decoration: none;position: relative;}
+			#dialog_link span.ui-icon {margin: 0 5px 0 0;position: absolute;left: .2em;top: 50%;margin-top: -8px;}
+			ul#icons {margin: 0; padding: 0;}
+			ul#icons li {margin: 2px; position: relative; padding: 4px 0; cursor: pointer; float: left;  list-style: none;}
+			ul#icons span.ui-icon {float: left; margin: 0 4px;}
+			#accordion img {padding-left:1em;}
+			#accordion h3 a.redd {color:white;}
+		</style>
+
+	<script>	$(function() {
+ $("#accordion").accordion();
+});</script>
+
 </head>
 <body>
 <!--[if lt IE 7]><p class=chromeframe>Your browser is <em>ancient!</em> <a href="http://browsehappy.com/">Upgrade to a different browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to experience this site.</p><![endif]-->
 
 	<div id="header-container">
 		<header class="wrapper clearfix">
-			<h1 id="title">SELN-CA DEMO</h1>
-			<nav>
+			<h1 style="padding:0em; margin:0em;" id="title"><img src="img/top_logo.gif" alt="small seln logo" /></h1>
+			<!--<nav>
 				<ul>
 					<li><a href="#">link</a></li>
 					<li><a href="#">link</a></li>
 					<li><a href="#">link</a></li>
 				</ul>
-			</nav>
+			</nav>-->
 		</header>
 	</div>
 	<div id="main-container">
@@ -40,34 +56,76 @@
 			
 			<article>
 				<header>
-					<h1>article header h1</h1>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sodales urna non odio egestas tempor. Nunc vel vehicula ante. Etiam bibendum iaculis libero, eget molestie nisl pharetra in. In semper consequat est, eu porta velit mollis nec.</p>
+					<h2>Welcome to the SELN-CA meetup demo</h2>
+					<p>Use the map tool to find the closest meeting to you</p>
 				</header>
 				<!-- Accordion -->
-						<a class="various fancybox.iframe" href="http://maps.google.com/maps/ms?msid=202643747748325286558.0004bc5203ca3bdbb624d&msa=0&ll=33.504759,-120.541992&spn=26.10634,52.77832">Google maps (iframe)</a>
+						<a class="btn btn-info btn-large various fancybox.iframe" style="color:white;" href="http://maps.google.com/maps/ms?msa=0&amp;msid=202643747748325286558.0004bc6508a07f1d96e6a&amp;hl=en&amp;ie=UTF8&amp;t=m&amp;ll=36.456636,-120.585937&amp;spn=8.479395,14.0625&amp;z=6&amp;output=embed">Meeting Locator</a>
 
-		<h2 class="demoHeaders">Accordion</h2>
+				<p><strong>OR</strong></p>
+						
+				
+		<h2 class="demoHeaders">Browse current meetups:</h2>
 		<div id="accordion">
 			<div>
 				<h3 id="one"><a href="#">Seln Event #1</a></h3>
-				<div><div style="width:100%; text-align:left;" ><iframe  src="https://www.eventbrite.com/tickets-external?eid=3240419181&ref=etckt" frameborder="0" height="192" width="100%" vspace="0" hspace="0" marginheight="5" marginwidth="5" scrolling="auto" allowtransparency="true"></iframe><div style="font-family:Helvetica, Arial; font-size:10px; padding:5px 0 5px; margin:2px; width:100%; text-align:left;" ><a style="color:#ddd; text-decoration:none;" target="_blank" href="http://www.eventbrite.com/r/etckt" >Online event registration</a><span style="color:#ddd;" > for </span><a style="color:#ddd; text-decoration:none;" target="_blank" href="http://www.eventbrite.com/event/3240419181?ref=etckt" >Seln Event #1</a><span style="color:#ddd;" > powered by </span><a style="color:#ddd; text-decoration:none;" target="_blank" href="http://www.eventbrite.com?ref=etckt" >Eventbrite</a>
-				</div></div>
+				<div><div style="width:100%; text-align:left;" ><iframe  src="https://www.eventbrite.com/tickets-external?eid=3240419181&ref=etckt" frameborder="0" height="192" width="100%" vspace="0" hspace="0" marginheight="5" marginwidth="5" scrolling="auto" allowtransparency="true"></iframe></div>
 			</div>
 			<div>
 				<h3 id="two"><a href="#">Seln Event #2</a></h3>
-				<div><div style="width:100%; text-align:left;" ><iframe  src="https://www.eventbrite.com/tickets-external?eid=3240455289&ref=etckt" frameborder="0" height="192" width="100%" vspace="0" hspace="0" marginheight="5" marginwidth="5" scrolling="auto" allowtransparency="true"></iframe><div style="font-family:Helvetica, Arial; font-size:10px; padding:5px 0 5px; margin:2px; width:100%; text-align:left;" ><a style="color:#ddd; text-decoration:none;" target="_blank" href="http://www.eventbrite.com/r/etckt" >Online Ticketing</a><span style="color:#ddd;" > for </span><a style="color:#ddd; text-decoration:none;" target="_blank" href="http://www.eventbrite.com/event/3240455289?ref=etckt" >Seln event #2</a><span style="color:#ddd;" > powered by </span><a style="color:#ddd; text-decoration:none;" target="_blank" href="http://www.eventbrite.com?ref=etckt" >Eventbrite</a></div></div></div>
+				<div><div style="width:100%; text-align:left;" ><iframe  src="https://www.eventbrite.com/tickets-external?eid=3240455289&ref=etckt" frameborder="0" height="192" width="100%" vspace="0" hspace="0" marginheight="5" marginwidth="5" scrolling="auto" allowtransparency="true"></iframe></div></div>
 			</div>
 			
 		</div>
-				<section>
-					<h2>article section h2</h2>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sodales urna non odio egestas tempor. Nunc vel vehicula ante. Etiam bibendum iaculis libero, eget molestie nisl pharetra in. In semper consequat est, eu porta velit mollis nec. Curabitur posuere enim eget turpis feugiat tempor. Etiam ullamcorper lorem dapibus velit suscipit ultrices. Proin in est sed erat facilisis pharetra.</p>
-				</section>
-				<section>
-					<h2>article section h2</h2>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sodales urna non odio egestas tempor. Nunc vel vehicula ante. Etiam bibendum iaculis libero, eget molestie nisl pharetra in. In semper consequat est, eu porta velit mollis nec. Curabitur posuere enim eget turpis feugiat tempor. Etiam ullamcorper lorem dapibus velit suscipit ultrices. Proin in est sed erat facilisis pharetra.</p>
-				</section>
-				
+				<hr />
+		<div id="accordion">
+			<div>
+				<h3 id="host"><a class="redd" href="#">Would you like to host a meetup?</a></h3>
+				<div><div id="wufoo-m7p6r7">
+Fill out my <a href="http://iciwebs.wufoo.com/forms/m7p6r7">online form</a>.
+</div>
+<script type="text/javascript">var m7p6r7;(function(d, t) {
+var s = d.createElement(t), options = {
+'userName':'iciwebs', 
+'formHash':'m7p6r7', 
+'autoResize':true,
+'height':'437',
+'async':true,
+'header':'show', 
+'ssl':true};
+s.src = ('https:' == d.location.protocol ? 'https://' : 'http://') + 'wufoo.com/scripts/embed/form.js';
+s.onload = s.onreadystatechange = function() {
+var rs = this.readyState; if (rs) if (rs != 'complete') if (rs != 'loaded') return;
+try { m7p6r7 = new WufooForm();m7p6r7.initialize(options);m7p6r7.display(); } catch (e) {}};
+var scr = d.getElementsByTagName(t)[0], par = scr.parentNode; par.insertBefore(s, scr);
+})(document, 'script');</script>
+			</div>
+			<hr />
+		<div id="accordion">
+			<div>
+				<h3 id="webinar"><a class="redd" href="#">Can't make it to one, want to participate online?</a></h3>
+				<div><div id="wufoo-m7p6z7">
+Fill out my <a href="http://iciwebs.wufoo.com/forms/m7p6z7">online form</a>.
+</div>
+<script type="text/javascript">var m7p6z7;(function(d, t) {
+var s = d.createElement(t), options = {
+'userName':'iciwebs', 
+'formHash':'m7p6z7', 
+'autoResize':true,
+'height':'260',
+'async':true,
+'header':'show', 
+'ssl':true};
+s.src = ('https:' == d.location.protocol ? 'https://' : 'http://') + 'wufoo.com/scripts/embed/form.js';
+s.onload = s.onreadystatechange = function() {
+var rs = this.readyState; if (rs) if (rs != 'complete') if (rs != 'loaded') return;
+try { m7p6z7 = new WufooForm();m7p6z7.initialize(options);m7p6z7.display(); } catch (e) {}};
+var scr = d.getElementsByTagName(t)[0], par = scr.parentNode; par.insertBefore(s, scr);
+})(document, 'script');</script>
+			</div>
+			
+			
+		</div>
 			</article>
 			
 			<aside>
@@ -92,6 +150,9 @@
 <script>window.jQuery || document.write('<script src="js/libs/jquery-1.7.1.min.js"><\/script>')</script>
 
 <script src="js/script.js"></script>
+<script>
+$("#accordionl, #accordionr").accordion();
+</script>
 <script type="text/javascript">
 			$(function(){
 
@@ -108,6 +169,7 @@
 
 			});
 		</script>
+
 
 		<script>
     $(document).ready(function() {
